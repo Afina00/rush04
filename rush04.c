@@ -20,9 +20,10 @@ void	print_char(int n, char a)
 		}
 		else if (length >= 3)
 		{
-			print_char(length - 2, 'B');
+			print_char(length * 2, 'B');
 			ft_putchar('C');
 		}
+	}	
 
         void print_middle_rows(int length)
         {
