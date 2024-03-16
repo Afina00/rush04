@@ -10,3 +10,18 @@ void	print_char(int n, char a)
 	n--;
 	}
 }
+
+        void print_middle_rows(int length)
+        {
+                ft_putchar('B');
+                if (length == 2)
+                {
+                        ft_putchar('B');
+                }
+                else if (length >= 3)
+                {
+                        print_char(lenth - 2, ' ')
+                        ft_putchar('0');
+                }
+                ft_putchar('\n');
+        }
