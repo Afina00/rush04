@@ -1,0 +1,22 @@
+#include "ft_putchar.c" // Include your ft_putchar implementation
+
+void rush(int x, int y)
+{
+    int i, j;
+
+    for (i = 1; i <= y; i++)
+    {
+        for (j = 1; j <= x; j++)
+        {
+            if ((i == 1 && j == 1) || (i == 1 && j == x))
+                ft_putchar('A');
+            else if ((i == y && j == 1) || (i == y && j == x))
+                ft_putchar('C');
+            else if (i == 1 || i == y || j == 1 || j == x)
+                ft_putchar('B');
+            else
+                ft_putchar(' ');
+        }
+        ft_putchar('\n');
+    }
+}
