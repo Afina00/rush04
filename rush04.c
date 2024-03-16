@@ -41,9 +41,9 @@ void	print_char(int n, char a)
                 ft_putchar('\n');
         }
 
-	void print_last_rows(int C_Right, int C_Left)
+	void print_last_rows(int C_Right, int C_Row)
 	{
-		if (C_Left >= 3)
+		if (C_Row >= 3)
 		{
 			ft_putchar('C');
 			if (C_Right == 2)
