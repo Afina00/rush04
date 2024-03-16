@@ -21,7 +21,7 @@ void	print_char(int n, char a)
                 else if (length >= 3)
                 {
                         print_char(lenth - 2, ' ')
-                        ft_putchar('0');
+                        ft_putchar('B');
                 }
                 ft_putchar('\n');
         }
