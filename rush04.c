@@ -41,7 +41,7 @@ void	print_char(int n, char a)
                 ft_putchar('\n');
         }
 
-	void print_last_rows(int C_Right, int C_Row)
+	void print_last_rows(int C_Right, int C_Row) // Afina will try to fix this later. :)
 	{
 		if (C_Row >= 3)
 		{
