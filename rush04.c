@@ -41,5 +41,22 @@ void	print_char(int n, char a)
                 ft_putchar('\n');
         }
 
+	void print_last_rows(int C_Right, int C_Left)
+	{
+		if (C_Left >= 3)
+		{
+			ft_putchar('C');
+			if (C_Right == 2)
+			{
+				ft_putchar('B');
+			}
+			else if (C_Right >= 3)
+			{
+				print_char(C_Right * 2, 'B');
+				ft_putchar('A');
+			}
+			ft_putchar('\n');
+		}
+}
 
 }
