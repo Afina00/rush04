@@ -11,6 +11,19 @@ void	print_char(int n, char a)
 	}
 }
 
+	void print_first_rows(int length)
+	{
+		ft_putchar('A');
+		if (length == 2)
+		{
+			ft_putchar('B');
+		}
+		else if (length >= 3)
+		{
+			print_char(length - 2, 'B');
+			ft_putchar('C');
+		}
+
         void print_middle_rows(int length)
         {
                 ft_putchar('B');
@@ -26,7 +39,5 @@ void	print_char(int n, char a)
                 ft_putchar('\n');
         }
 
-	void print_first_rows(int length)
-	{
-		ft_putchar('A');
+
 }
