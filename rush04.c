@@ -25,3 +25,8 @@ void	print_char(int n, char a)
                 }
                 ft_putchar('\n');
         }
+
+	void print_first_rows(int length)
+	{
+		ft_putchar('A');
+}
