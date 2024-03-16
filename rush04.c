@@ -57,6 +57,3 @@ void	print_char(int n, char a)
 			}
 			ft_putchar('\n');
 		}
-}
-
-}
