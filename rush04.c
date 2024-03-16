@@ -23,6 +23,7 @@ void	print_char(int n, char a)
 			print_char(length * 2, 'B');
 			ft_putchar('C');
 		}
+		ft_putchar('\n');
 	}	
 
         void print_middle_rows(int length)
@@ -34,7 +35,7 @@ void	print_char(int n, char a)
                 }
                 else if (length >= 3)
                 {
-                        print_char(lenth - 2, ' ')
+                        print_char(lenth * 2, ' ')
                         ft_putchar('B');
                 }
                 ft_putchar('\n');
